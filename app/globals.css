@@ -1,0 +1,21 @@
+@config "../tailwind.config.js";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  color: #fff;
+  background-color: #000;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+}
